@@ -3,34 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selectors</title>
+    <title>Selectors Resubmission</title>
     <style>
+        
+        * {
+            margin: 10px;
+            padding: 10px;
+            background-color: black;
+        }
+
         h1{
-            text-align: center;
-            color: blueviolet;
-        }
-        p{
-            color: yellowgreen;
-        }
-        div p{
             color: aqua;
         }
 
+        p {
+            color: blue;
+        }
+
+        .my-class {
+            font-size: 16px;
+            color: white;
+        }
+
+        #my-id {
+            background-color: yellow;
+        }
+
+        input[type="text"] {
+          border: 1px solid white;
+
+        }
+
+        a:hover {
+            color: red;
+        }
+
+
+
+
+
 
     </style>
-
-
 </head>
 <body>
-    <h1>Simple Selecter</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae commodi, deleniti reprehenderit reiciendis culpa autem at magnam officiis, fuga tempora amet! Provident in inventore et facere dicta architecto blanditiis quibusdam?</p>
     
-    <h1>Combinator </h1>
-    <div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ex molestiae et! Cumque ipsa ducimus inventore nisi, harum maxime provident voluptatum totam atque quaerat esse, mollitia, dolores optio! Ratione, ut!
-        </p>
-    </div>
+    <center><h1>Simple Selectors ReSubmissions</h1></center>
+    
+    
+  <!-- Universal Selector -->
+  <p>All elements have their margins and paddings reset. "Universal Selector" </p>
+
+  <!-- Type Selector -->
+  <p>This paragraph will be in blue color .</p>
+  <p> Another blue paragraph.  <b>"This Type Selector"</b>    </p>
+
+  <!-- Class Selector -->
+  <div class="my-class">This div also has 16px font size."Class Selector"</div>
+
+  <!-- Id selector -->
+  <p id="my-id">This paragraph has a yellow background. "ID Selector" </p>
+
+  <!-- Attribute Selector -->
+   <p>Atrribute Selector's :-</p>
+  <input type="text" placeholder="Text input with black border">
+  <input type="password" placeholder="Password input without border">
+
+  <!-- Pseduo class selector -->
+  <a href="#">Hover over this link to change its color to red.</a>
 
 
 
